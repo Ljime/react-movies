@@ -1,0 +1,11 @@
+.bodyContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.error {
+    font-size: 10rem;
+    color: whitesmoke;
+}

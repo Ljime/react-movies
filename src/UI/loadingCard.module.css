@@ -1,0 +1,26 @@
+.loadingCard {
+    width: 30rem;
+    height: 50rem;
+    background-color:var(--color-primary-dark);
+    margin: 3rem;
+    z-index: 5;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spinner {
+    border: 1.6rem solid var(--color-primary); 
+    border-top: 1.6rem solid var(--color-primary-light-2); 
+    border-bottom: 1.6rem solid var(--color-primary-light-2);
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
