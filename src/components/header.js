@@ -26,7 +26,3 @@ const Header = (props) => {
 }
 
 export default Header
-
-// https://api.themoviedb.org/3/movie/550?api_key=576415f17fb97555f63a66608f20aadc
-// https://api.themoviedb.org/3/search/movie?api_key=576415f17fb97555f63a66608f20aadc&query=Pokemon
-// image path https://image.tmdb.org/t/p/w500/nDP33LmQwNsnPv29GQazz59HjJI.jpg
